@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen: Post Details renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "bold",
+          "paddingBottom": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Title"
+    >
+      Title
+    </Text>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "300",
+          "opacity": 0.8,
+          "paddingLeft": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Title-Details"
+    >
+      New Song1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "bold",
+          "paddingBottom": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Author"
+    >
+      Author
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "300",
+          "opacity": 0.8,
+          "paddingLeft": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Author-Details"
+    >
+      Jack1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "bold",
+          "paddingBottom": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="URL"
+    >
+      URL
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "300",
+          "opacity": 0.8,
+          "paddingLeft": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="URL-Details"
+    >
+      http://new-song1.com
+       
+      http://new-song1.com
+      http://new-song1.com
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "bold",
+          "paddingBottom": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Created-At"
+    >
+      Created At
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontWeight": "300",
+          "opacity": 0.8,
+          "paddingLeft": 5,
+          "textAlign": "center",
+        }
+      }
+      testID="Created-At-Details"
+    >
+      1
+    </Text>
+  </View>
+</View>
+`;

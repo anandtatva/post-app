@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen: Post List renders correctly 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={Array []}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+          testID="Current-Total-Post"
+        >
+          Current Total Post:- 
+          0
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+          testID="Current-Page-Total-Page"
+        >
+          Current Page:- 
+          1
+           Total Page:-  
+          0
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+      testID="Empty-Post-List"
+    >
+      No Post Found
+    </Text>
+  </View>
+</RCTScrollView>
+`;
